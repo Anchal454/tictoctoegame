@@ -1,0 +1,45 @@
+@import "antd/dist/antd.css";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.box {
+	/* background-color: #008080; */
+	background-color: #fff;
+	border-radius: 10%;
+	box-shadow: 0px 0px 8px #888;
+	font-size: 5em;
+	line-height: 3.5rem;
+	width: 5rem;
+	height: 5rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+.box:hover{
+	box-shadow: 0px 0px 15px #888;
+}
+
+.bord{
+	display: grid;
+	grid-template-columns: repeat(3,6rem);
+	place-items: center;
+	justify-content: center;
+}
+
+.cp{
+	border-bottom: 5px solid #0e80db;
+	border-radius:0rem 0 0.4rem 0.4rem ;
+}
+
+.us{
+	border-radius:0rem 0 0.4rem  0.4rem;
+	border-bottom: 5px solid red;
+}
+.inActive{
+	border-bottom: 0px;
+}
+
+.text-blue{
+color:#0e80db ;
+}
